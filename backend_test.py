@@ -10,8 +10,8 @@ import time
 import os
 from datetime import datetime
 
-# Get base URL from environment
-BASE_URL = "https://fleetpulse-2.preview.emergentagent.com/api"
+# Get base URL from environment - using localhost for testing
+BASE_URL = "http://localhost:3000/api"
 
 class FleetPulseAPITester:
     def __init__(self):
