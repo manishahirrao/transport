@@ -31,6 +31,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 const FleetManagementApp = () => {
   const [currentView, setCurrentView] = useState('landing')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [currentPage, setCurrentPage] = useState('home')
   
   // ROI Calculator state
   const [truckCount, setTruckCount] = useState([15])
